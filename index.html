@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>MS Clone</title>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <div class="navbar flex justify-between items-center p-3 md:mx-14">
+        <div class="flex items-center justify-center md:order-1">
+            <div class="hamburger inline-block px-2 cursor-pointer md:hidden">
+                <div class="line h-0.5 w-6 my-1 bg-black"></div>
+                <div class="line h-0.5 w-6 my-1 bg-black"></div>
+                <div class="line h-0.5 w-6 my-1 bg-black"></div>
+            </div>
+            <img src="images/search.png" alt="Search" class="h-8 cursor-pointer md:hidden ">
+        </div>
+
+        <div class="logo flex items-center">
+            <div class="microsoft">
+                <img src="images//Microsoft.png" alt="Microsoft" class="h-6 mr-4 cursor-pointer">
+            </div>
+            <div
+                class="features absolute text-s w-fit md:w-auto md:static bg-gray-200 md:bg-auto inset-0 md:flex md:mx-4 -translate-x-96 md:space-x-6 md:translate-x-0 md:bg-white ">
+                <div class="item cursor-pointer hover:underline hover:underline-offset-4 decoration-2">Microsoft 365
+                </div>
+                <div class="item cursor-pointer hover:underline hover:underline-offset-4 decoration-2">Teams</div>
+                <div class="item cursor-pointer hover:underline hover:underline-offset-4 decoration-2">Copilot</div>
+                <div class="item cursor-pointer hover:underline hover:underline-offset-4 decoration-2">Windows</div>
+                <div class="item cursor-pointer hover:underline hover:underline-offset-4 decoration-2">Surface</div>
+                <div class="item cursor-pointer hover:underline hover:underline-offset-4 decoration-2">Xbox</div>
+                <div class="item cursor-pointer hover:underline hover:underline-offset-4 decoration-2">Support</div>
+            </div>
+        </div>
+
+        <div class="Cart flex items-center md:order-3">
+            <div
+                class="search hidden mx-4 text-s md:block cursor-pointer hover:underline hover:underline-offset-4 decoration-2">
+                All
+                Microsoft ></div>
+            <img src="images/search.png" alt="Search" class="h-8 cursor-pointer hidden md:block">
+            <div class="AccountCart flex">
+                <img src="images/cart.png" class="h-6 px-2 cursor-pointer" alt="Cart">
+                <img src="images/account.jpg" class="h-6 px-2 cursor-pointer" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- Caurosel Body -->
+    <div class="slider flex flex-col-reverse md:flex-row">
+
+        <div
+            class="left flex md:w-1/2 md:place-items-center md:justify-center md:bg-[#ede5f0] shadow-md md:shadow-none">
+            <div class="py-5 md:pl-20 ">
+                <p class=" bg-[#ffb900] text-xl font-medium px-3 py-0.5 w-fit ml-6 ">New</p>
+                <h1 class="text-2xl font-medium ml-6 py-2 md:w-fit md:text-3xl">Get more from Copilot</h1>
+                <p class="mx-6 md:w-3/4 text-lg pb-3 md:text-lg">See how your everyday AI companion can help enhance
+                    life and
+                    work.</p>
+                <div class="buttons flex my-2 mb-5">
+                    <button
+                        class="mx-6 bg-sky-700 text-white font-medium py-2 hover:bg-sky-800 px-4 rounded-sm text-lg">For
+                        individuals</button>
+                    <button class="mx-5 text-sky-700 font-medium text-lg hover:underline">For business ></button>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="right md:w-1/2 ">
+            <img src="images/ms.webp" alt="Image" class=" md:h-[39rem]">
+        </div>
+    </div>
+
+    <!-- Previous and Next Button Body -->
+    <div class="PreNext flex items-center space-x-6 justify-center py-8">
+        <img src="images/playicon.png" alt="Play" class="h-6 cursor-pointer">
+        <img src="images/leftarrow.jpg" alt="left" class="h-5 cursor-pointer">
+        <img src="images/dot-fill.svg" alt="dotfill" class="h-8">
+        <img src="images/dot-unfill.png" alt="dotunfill" class="h-4">
+        <img src="images/rightarrow.png" alt="right" class="h-5 cursor-pointer">
+    </div>
+
+    <!-- Explore Body -->
+    <div class="explore flex flex-wrap justify-center items-center">
+        <div class="item p-7 align-baseline mx-1">
+            <img src="images/Mslogoblack.svg" alt="Microsoft 365" class="h-10 m-auto">
+            <span><a href="" class="text-sky-700 underline font-medium">Choose your Microsoft 365</a></span>
+        </div>
+        <div class="item p-7 align-baseline mx-1">
+            <img src="images/xbox.svg" alt="Xbox" class="h-10 m-auto">
+            <span><a href="" class="text-sky-700 underline font-medium">Shop Xbox games and consoles</a></span>
+        </div>
+        <div class="item p-7 align-baseline mx-1">
+            <img src="images/Mslogoblack.svg" alt="Microsoft 11" class="h-10 m-auto">
+            <span><a href="" class="text-sky-700 underline font-medium">Get Windows 11</a></span>
+        </div>
+        <div class="item p-7 align-baseline mx-1">
+            <img src="images/explore.svg" alt="Explore" class="h-10 m-auto">
+            <span><a href="" class="text-sky-700 underline font-medium">Explore Surface devices</a></span>
+        </div>
+    </div>
+
+    <!-- New Products -->
+    <div class="products flex flex-wrap pt-4 justify-center">
+        <div class="item px-3 py-10 align-baseline max-w-[21.5rem]">
+            <img src="images/surfaceLaptop.jpeg" alt="Surface Laptop" class="min-w-full">
+            <h2 class="text-2xl font-medium py-4">Surface Laptop 5</h2>
+            <span class="w-3/4 md:text-lg">
+                Sophisticated style and multitasking speed powered by 12th Gen Intel® Core, with Windows 11.
+            </span>
+            <span class="text-blue-700 font-medium text-lg block py-6"><a href="">Learn more ></a></span>
+        </div>
+        <div class="item  px-3 py-10 align-baseline max-w-[21.5rem]">
+            <img src="images/surfaceStudio.webp" alt="Surface Studio" class="min-w-full">
+            <h2 class="text-2xl font-medium py-4">Surface Laptop Studio</h2>
+            <span class="w-3/4 md:text-lg">
+                Flex your creative muscle on the most powerful Surface Laptop. Now available with Windows 11.
+            </span>
+            <span class="text-blue-700 text-lg font-medium block py-6"><a href="">Learn more ></a></span>
+        </div>
+        <div class="item px-3 py-10 align-baseline max-w-[21.5rem]">
+            <img src="images/xbox.webp" alt="Xbox" class="min-w-full h-[11.6rem]">
+            <h2 class="text-2xl font-medium py-4">Xbox Series X</h2>
+            <span class="w-3/4 md:text-lg">
+                The fastest, most powerful Xbox ever.
+            </span>
+            <span class="text-blue-700 font-medium text-lg block py-6"><a href="">Learn more ></a></span>
+        </div>
+        <div class="item px-3 py-10 align-baseline max-w-[21.5rem]">
+            <img src="images/lifestyle.webp" alt="Lifestyle" class="min-w-full">
+            <h2 class="text-2xl font-medium py-4">Maximize the everyday with Microsoft 365</h2>
+            <span class="w-3/4 md:text-lg">
+                Get online protection, secure cloud storage and innovative apps designed to fit your needs - all in
+                one plan.
+            </span>
+            <span class="text-blue-700 font-medium text-lg block pt-6"><a href="">For one person ></a></span>
+            <span class="text-blue-700 font-medium text-lg block py-4"><a href="">For upto six people ></a></span>
+        </div>
+    </div>
+
+    <!-- XBOX Series S -->
+    <div class="xboxHero flex flex-col-reverse px-3 lg:relative">
+        <div
+            class="left py-3 pl-4 md:mx-4 bg-white lg:absolute md:-translate-y-20 md:shadow-lg lg:bg-inherit lg:shadow-none lg:-translate-y-64 lg:translate-x-40">
+            <span class="text-2xl font-medium lg:text-[33px]">Xbox Series S</span>
+            <span class="block py-3 text-lg">Next-gen performance in the smallest Xbox ever</span>
+            <button
+                class="block py-2.5 text-white px-4 text-lg rounded-sm font-semibold bg-[#0067b8] my-3 cursor-pointer hover:bg-[#0067a8]">Shop
+                Xbox
+                Series
+                S</button>
+        </div>
+
+        <div class="right flex pb-8 m-auto">
+            <img src="images/XBoxHero.webp" alt="" class="bg-cover w-[85rem]">
+        </div>
+    </div>
+
+    <!-- For Business -->
+    <div class="forBusiness ml-5 pt-12 text-[1.7rem] -mb-7 lg:text-4xl lg:-mb-5 font-medium md:ml-18 lg:ml-[70px]">
+        <span>For business</span>
+    </div>
+
+    <div class="products flex flex-wrap justify-center">
+        <div class="item px-3 py-10 align-baseline max-w-[21.5rem]">
+            <img src="images/surfacebusiness.webp" alt="Surface Laptop" class="min-w-full">
+            <h2 class="text-2xl font-medium py-4">Surface for Business</h2>
+            <span class="w-3/4 md:text-lg">
+                No matter what you do, there’s a Surface to help you do it.
+            </span>
+            <span class="text-sky-700 font-medium text-lg block py-6"><a href="">Shop now ></a></span>
+        </div>
+        <div class="item  px-3 py-10 align-baseline max-w-[21.5rem]">
+            <img src="images/microsoftTeam.webp" alt="Surface Studio" class="min-w-full">
+            <h2 class="text-2xl font-medium py-4">Get Microsoft Teams for free</h2>
+            <span class="w-3/4 md:text-lg">
+                Online meetings, chat and shared cloud storage – all in one place.
+            </span>
+            <span class="text-sky-700 font-medium block text-lg py-6"><a href="">Sign up for free ></a></span>
+        </div>
+        <div class="item px-3 py-10 align-baseline max-w-[21.5rem]">
+            <img src="images/openAI.jpeg" alt="Xbox" class="min-w-full h-[11.6rem]">
+            <h2 class="text-2xl font-medium py-4">Join the era of AI</h2>
+            <span class="w-3/4 md:text-lg">
+                Create, communicate, and code with the latest Microsoft AI solutions.
+            </span>
+            <span class="text-sky-700 font-medium block text-lg py-6"><a href="">Explore AI solutions ></a></span>
+        </div>
+        <div class="item px-3 py-10 align-baseline max-w-[21.5rem]">
+            <img src="images/microsoft365.webp" alt="Lifestyle" class="min-w-full">
+            <h2 class="text-2xl font-medium py-4">Welcome to your Windows 365 Cloud PC
+            </h2>
+            <span class="w-3/4 md:text-lg">
+                Securely stream your Windows experience from the Microsoft cloud to any device.
+            </span>
+            <span class="text-sky-700 font-medium text-lg block pt-6"><a href="">Get it today ></a></span>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
